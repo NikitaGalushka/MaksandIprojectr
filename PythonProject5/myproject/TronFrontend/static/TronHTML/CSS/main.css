@@ -1,0 +1,143 @@
+body {
+  background-color: #ffffff;
+  font-family: "Poiret One", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.blokt {
+  background-color: #FFFFFF;
+  width: 100%;
+  min-height: 160px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  padding: 10px 0;
+  margin-top: 150px;
+}
+
+.blok {
+  background-color: #1A237E;
+  width: 100%;
+  min-height: 50px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  padding: 10px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: end; 
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+.containe {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+.tron img {
+  justify-content: left;
+  text-align: left;
+  height: 80px;
+  border-radius: 150px;
+  margin: 5px 200px 5px 0;
+  float: none; 
+  margin-right: 710px;
+  margin-left: -490px;
+}
+
+.info, .info2, .info3{
+  background-color: #FF7A00;
+  width: 280px;
+  height: 100px;
+  text-align: center;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.8s, box-shadow 0.6s, background-color 0.4s;
+  margin-left: 120px;
+  margin-top: 15px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+
+.info:hover, .info2:hover, .info3:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  background-color: #00B0FF;
+}
+
+.inf, .inf2, .inf3, .inf4{
+  background-color: #FF7A00;
+  width: 80px;
+  height: 50px;
+  text-align: start;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.8s, box-shadow 0.6s, border-radius 1s, background-color 0.4s;
+  margin-left: 20px;
+  color: #FFFFFF;
+  cursor: pointer;;
+}
+
+.inf:hover, .inf2:hover, .inf3:hover, .inf4:hover{
+  border-radius: 40px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  background-color: #00B0FF;
+}
+
+.info img, .info2 img, .info3 img {
+  float: left;
+  width: 60px;
+  height: auto;
+  margin-top: 15px;
+}
+
+h3 {
+  margin: 15px 0 10px 0;
+  color: #1A237E;
+}
+
+p {
+  margin: 5px 0;
+  font-size: 15px;
+  color: #FFFFFF;
+} 
+.inf {
+  margin-right: 10px;
+}
+.serse, .sers {
+    background-color: #FF7A00;
+  width: 80px;
+  height: 50px;
+  text-align: start;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.8s, box-shadow 0.6s, border-radius 1s, background-color 0.4s;
+  margin-left: 20px;
+  color: #FFFFFF;
+  cursor: pointer;;
+
+}
+.refer{
+  margin-top: 90px;
+  text-align: end;
+  margin-right: 10px;
+}
+.blok2{
+    background-color: #1A237E;
+    margin-top: 146px;
+  width: 100%;
+  height: 120px;
+  min-height: 50px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  padding: 10px 0;
+
+}
